@@ -1,0 +1,16 @@
+fastapi==0.115.5
+uvicorn==0.23.1
+python-telegram-bot==20.0  # Ensure this version is used for compatibility
+httpx==0.23.1  # Compatible with python-telegram-bot 20.0
+pymongo==4.7.1
+python-dotenv==1.0.0
+loguru==0.7.0
+solana==0.25.0  # Upgrade to ensure compatibility with httpx 0.23.1
+tenacity==8.2.2
+cryptography==3.4.7
+nest-asyncio==1.5.6
+huggingface_hub
+Pillow==10.0.0  # For image handling
+torch==2.5.1
+diffusers
+transformers
